@@ -18,7 +18,7 @@ int main() {
     unsigned char char_u;
     short short_s;
     unsigned short short_u;
-    char *binA, *binB;
+    char *binA, *binB, *binC;
 
     // TODO: Comment out or remove the examples below when you are writing your own tests
     run_examples();
@@ -29,11 +29,16 @@ int main() {
     // char_s = 35;
     // binA = char_to_bin_str(char_s);
     // binB = cast_char2uchar(binA);
-    // // New string must be new (not same as input string), and should equal "00100011"
-    // assert(binA != binB && strcmp(binB, "00100011") == 0);
+    // binC = uchar_to_bin_str((unsigned char)char_s);
+    // // New string must be new (not same as input string)
+    // assert(binA != binB)
+    // // New string should equal "00100011"
+    // assert(strcmp(binB, "00100011") == 0);
+    // // OR you could test it this way (don't need to do both!)
+    // assert(strcmp(binB, binC) == 0);
     // free(binA);
     // free(binB);
-
+    // free(binC);
 
     // TODO Add many more tests here for all eight functions
 
