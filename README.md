@@ -1,5 +1,7 @@
 # Casting and Conversion Among Integers
 
+## Overview
+
 This problem asks you to simulate the process of casting between signed and unsigned
 1-byte and 2-byte integers (`char` and `short`). It is important to buid a deep
 understanding of how this sort of casting happens, and what it means inside the computer
@@ -13,7 +15,7 @@ Be sure to commit and push your changes frequently: having a copy of the code
 that is **not** on the server is safest, and easiest when you need help. See
 Homework 0 for guidance on staging, committing, and pushing your code.
 
-## Assignment Rubric
+### Assignment Rubric
 
 - In `cast_conv.c` (22 pts):
     - Student name and description of file at the top of the file
