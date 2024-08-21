@@ -17,13 +17,13 @@ Homework 0 for guidance on staging, committing, and pushing your code.
 
 ### Assignment Rubric
 
-- In `cast_conv.c` (22 pts):
+- In `cast_conv.c` (34 pts):
     - Student name and description of file at the top of the file
     - Clean coding style (indentation, spacing, readability, good variable names, etc.)
     - All functions have good quality comments
     - All functions are implemented correctly according to instructions below
     - All debugging statements have been commented out or removed
-- In `test.c` (12 pts):
+- In `test.c` (24 pts):
     - Student name and description of file at the top of the file
     - Clean coding style (indentation, spacing, readability, good variable names, etc.)
     - Every test in `main` has a comment that describes what it tests
