@@ -11,19 +11,29 @@ you could write code that has unexpected results!
 Complete all the tasks listed below, and be sure to check the assignment rubric 
 to make sure your solution matches what we are looking for. 
 
+When you have completed the **code** for this assignment, make sure to complete the **report** 
+before final submission. Your report should include:
+
+* A list of known bugs or issues in the code.
+    * Give as much detail as necessary for a grader to understand the issue! Do not write only that something does not work.
+* What challenges you faced while completing the assignment.
+    * Reflect on the experience of doing this work. What were some of the sticking points? Did you get help? How did you solve them?
+* What you learned through completing this assignment.
+    * Reflect on your learning. Did the assignment illustrate any course concepts or build on what you practiced in the activities? Is there anything that you understand better because of this homework?
+
 Be sure to commit and push your changes frequently: having a copy of the code
 that is **not** on the server is safest, and easiest when you need help. See
 Homework 0 for guidance on staging, committing, and pushing your code.
 
 ### Assignment Rubric
 
-- In `cast_conv.c` (34 pts):
+- In `cast_conv.c`:
     - Student name and description of file at the top of the file
     - Clean coding style (indentation, spacing, readability, good variable names, etc.)
     - All functions have good quality comments
     - All functions are implemented correctly according to instructions below
     - All debugging statements have been commented out or removed
-- In `test.c` (24 pts):
+- In `test.c`:
     - Student name and description of file at the top of the file
     - Clean coding style (indentation, spacing, readability, good variable names, etc.)
     - Every test in `main` has a comment that describes what it tests
@@ -32,6 +42,10 @@ Homework 0 for guidance on staging, committing, and pushing your code.
         - tests each function with small/large  inputs or outputs
     - Handles dynamically-allocated strings correctly (freeing when done)
     - All debugging and example outputs have been commented out or removed
+ - In `TURNIN.md`
+    - A description of known bugs or errors in your code
+    - What was challenging in this assignment? (2-3 sentences)
+    - What did you learn through completing this assignment? (2-3 sentences)
 
 ### Starter Code
 
