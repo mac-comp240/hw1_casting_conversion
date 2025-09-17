@@ -161,7 +161,7 @@ As before, experiment to make sure you understand how these should work.
 Implement `cast_char2short` to do the following:
 - Create a new binary string to hold the binary representation of a short, 
 using functions from binary_convert2.h, with any artbitrary initial value
-- Grab the topmost (leftmost) bit from the input string: this will is the sign bit,
+- Grab the topmost (leftmost) bit from the input string: this is the sign bit,
 and will be needed to fill the high-order bits of the new string
 - Loop over the indices into this new binary string
     - if the index is into the high-order byte of the short, assign each position to the sign bit
